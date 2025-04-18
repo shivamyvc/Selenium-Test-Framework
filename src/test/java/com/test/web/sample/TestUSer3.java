@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import java.util.HashMap;
 
-public class SampleTest extends BaseTest {
+public class TestUSer3 extends BaseTest {
 	
 	
 
@@ -36,8 +36,8 @@ public class SampleTest extends BaseTest {
 
             report.put("Actual", actual);
              
-            VP.verifyEquals(actual, expected, "Expected and actual mismatch");
-            VP.verifyEquals(actual+" Hello", expected+" Hello", "Expected and actual mismatch");
+            VP.verifyEquals(actual, expected, "Verifying Usename");
+            VP.verifyEquals(actual+" Hello", expected+" Hello", "Verifying Password");
         } catch (Exception e) {
             errorMessage = e.getMessage();
             report.put("Error", errorMessage);

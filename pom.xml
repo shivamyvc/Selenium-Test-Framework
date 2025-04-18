@@ -31,7 +31,11 @@
 
 	<dependencies>
 
-
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>5.0.9</version> <!-- Or latest -->
+		</dependency>
 		<!-- Apache POI for Excel (XLSX) -->
 		<dependency>
 			<groupId>org.apache.poi</groupId>
