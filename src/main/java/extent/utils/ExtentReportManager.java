@@ -6,6 +6,7 @@ import java.util.Properties;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.utilities.ConfigReader;
 
 import java.io.FileInputStream;
 
@@ -16,13 +17,13 @@ public class ExtentReportManager {
     public static ExtentReports getInstance() {
         if (extent == null) {
             try {
+            	
                 // Load config properties
-                Properties config = new Properties();
-                config.load(new FileInputStream(CONFIG_PATH));
 
-                String reportPath = config.getProperty("report.path", "reports/");
-                String testerName = config.getProperty("tester.name", "Unknown");
-                String environment = config.getProperty("environment", "QA");
+
+                String reportPath = ConfigReader.getProperty("report.path", "reports/");
+                String testerName = ConfigReader.getProperty("tester.name", "Unknown");
+                String environment = ConfigReader.getProperty("environment", "QA");
 
                 // Create a timestamped file name
                 String timeStamp = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date());

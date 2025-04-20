@@ -2,20 +2,16 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-18T17:03:47 IST" name="Default suite" finished-at="2025-04-18T17:03:48 IST" duration-ms="1288">
+  <suite started-at="2025-04-20T12:29:58 IST" name="Default suite" finished-at="2025-04-20T12:29:59 IST" duration-ms="967">
     <groups>
     </groups>
-    <test started-at="2025-04-18T17:03:47 IST" name="Default test" finished-at="2025-04-18T17:03:48 IST" duration-ms="1288">
+    <test started-at="2025-04-20T12:29:58 IST" name="Default test" finished-at="2025-04-20T12:29:59 IST" duration-ms="967">
       <class name="com.test.web.sample.TestUSer3">
-        <test-method is-config="true" signature="setupExtentReport()[pri:0, instance:com.test.web.sample.TestUSer3@797cf65c]" started-at="2025-04-18T17:03:46 IST" name="setupExtentReport" finished-at="2025-04-18T17:03:47 IST" duration-ms="223" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupExtentReport -->
-        <test-method is-config="true" signature="initialize()[pri:0, instance:com.test.web.sample.TestUSer3@797cf65c]" started-at="2025-04-18T17:03:47 IST" name="initialize" finished-at="2025-04-18T17:03:48 IST" duration-ms="878" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.test.web.sample.TestUSer3@53dbe163]" started-at="2025-04-20T12:29:58 IST" name="initialize" finished-at="2025-04-20T12:29:58 IST" duration-ms="809" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="runTest(java.util.HashMap)[pri:0, instance:com.test.web.sample.TestUSer3@797cf65c]" started-at="2025-04-18T17:03:48 IST" name="runTest" data-provider="excelData" finished-at="2025-04-18T17:03:48 IST" duration-ms="30" status="PASS">
+        <test-method signature="runTest(java.util.HashMap)[pri:0, instance:com.test.web.sample.TestUSer3@53dbe163]" started-at="2025-04-20T12:29:58 IST" name="runTest" data-provider="excelData" finished-at="2025-04-20T12:29:59 IST" duration-ms="31" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runTest -->
-        <test-method signature="runTest(java.util.HashMap)[pri:0, instance:com.test.web.sample.TestUSer3@797cf65c]" started-at="2025-04-18T17:03:48 IST" name="runTest" data-provider="excelData" finished-at="2025-04-18T17:03:48 IST" duration-ms="18" status="PASS">
+        <test-method signature="runTest(java.util.HashMap)[pri:0, instance:com.test.web.sample.TestUSer3@53dbe163]" started-at="2025-04-20T12:29:59 IST" name="runTest" data-provider="excelData" finished-at="2025-04-20T12:29:59 IST" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runTest -->
-        <test-method signature="runTest(java.util.HashMap)[pri:0, instance:com.test.web.sample.TestUSer3@797cf65c]" started-at="2025-04-18T17:03:48 IST" name="runTest" data-provider="excelData" finished-at="2025-04-18T17:03:48 IST" duration-ms="10" status="PASS">
+        <test-method signature="runTest(java.util.HashMap)[pri:0, instance:com.test.web.sample.TestUSer3@53dbe163]" started-at="2025-04-20T12:29:59 IST" name="runTest" data-provider="excelData" finished-at="2025-04-20T12:29:59 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,7 +44,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runTest -->
-        <test-method signature="runTest(java.util.HashMap)[pri:0, instance:com.test.web.sample.TestUSer3@797cf65c]" started-at="2025-04-18T17:03:48 IST" name="runTest" data-provider="excelData" finished-at="2025-04-18T17:03:48 IST" duration-ms="17" status="PASS">
+        <test-method signature="runTest(java.util.HashMap)[pri:0, instance:com.test.web.sample.TestUSer3@53dbe163]" started-at="2025-04-20T12:29:59 IST" name="runTest" data-provider="excelData" finished-at="2025-04-20T12:29:59 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,7 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runTest -->
-        <test-method signature="runTest(java.util.HashMap)[pri:0, instance:com.test.web.sample.TestUSer3@797cf65c]" started-at="2025-04-18T17:03:48 IST" name="runTest" data-provider="excelData" finished-at="2025-04-18T17:03:48 IST" duration-ms="25" status="PASS">
+        <test-method signature="runTest(java.util.HashMap)[pri:0, instance:com.test.web.sample.TestUSer3@53dbe163]" started-at="2025-04-20T12:29:59 IST" name="runTest" data-provider="excelData" finished-at="2025-04-20T12:29:59 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -70,14 +66,6 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runTest -->
-        <test-method is-config="true" signature="finalizeReport()[pri:0, instance:com.test.web.sample.TestUSer3@797cf65c]" started-at="2025-04-18T17:03:48 IST" name="finalizeReport" finished-at="2025-04-18T17:03:48 IST" duration-ms="248" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- finalizeReport -->
-        <test-method is-config="true" signature="flushExtentReport()[pri:0, instance:com.test.web.sample.TestUSer3@797cf65c]" started-at="2025-04-18T17:03:48 IST" name="flushExtentReport" finished-at="2025-04-18T17:03:48 IST" duration-ms="361" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- flushExtentReport -->
       </class> <!-- com.test.web.sample.TestUSer3 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

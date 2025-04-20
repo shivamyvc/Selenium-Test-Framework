@@ -12,7 +12,7 @@ public class ExcelReportUtils {
     private static Workbook workbook;
     private static Sheet sheet;
 
-    private static String filePath = "E:\\Shivam\\Downloads\\ExecutionReport.xlsx";
+    private static String filePath = ConfigReader.getProperty("excel.report.path");
     private static int rowCount = 0;
     private static List<String> headers = new ArrayList<>();
     private static Map<String, Integer> headerIndexMap = new HashMap<>();
@@ -20,6 +20,21 @@ public class ExcelReportUtils {
     static {
         workbook = new XSSFWorkbook();
         sheet = workbook.createSheet("ExecutionReport");
+    }
+    
+    
+    private static final ThreadLocal<Map<String, String>> reportData = ThreadLocal.withInitial(LinkedHashMap::new);
+
+    public static Map<String, String> getReport() {
+        return reportData.get();
+    }
+
+    public static void setReport(Map<String, String> report) {
+        reportData.set(report);
+    }
+
+    public static void clear() {
+        reportData.remove();
     }
 
     // Method to set custom headers dynamically

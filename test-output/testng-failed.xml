@@ -3,15 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.web.sample.SampleTest">
+      <class name="com.test.web.sample.TestUSer3">
         <methods>
           <include name="initialize"/>
-          <include name="flushExtentReport"/>
-          <include name="finalizeReport"/>
-          <include name="runTest" invocation-numbers="1 3 4"/>
-          <include name="setupExtentReport"/>
+          <include name="runTest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.test.web.sample.SampleTest -->
+      </class> <!-- com.test.web.sample.TestUSer3 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
