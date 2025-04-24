@@ -28,16 +28,6 @@ This is a **Maven-based Java Automation Framework** structured for cross-browser
 
 ---
 
-# 🚀 Selenium Test Automation Framework
-
-A robust, scalable test automation framework using **Selenium**, **TestNG**, **ExtentReports**, and **Excel-based data-driven testing**. This project supports **parallel execution**, **remote execution via Selenium Grid**, and **detailed test reporting**.
-
-## 📦 Project Type
-
-This is a **Maven-based Java Automation Framework** structured for cross-browser testing using Selenium Grid. It leverages modular packages like `listeners`, `utilities`, and `driver factory`, making it easy to scale and maintain.
-
----
-
 ## 🔧 Technologies Used
 
 - Java 21
@@ -71,7 +61,6 @@ This is a **Maven-based Java Automation Framework** structured for cross-browser
 
 ---
 
-Let me know if you'd like this turned into an actual `README.md` file or deployed to GitHub with you!
 
 
 ## 🧪 Test Example
