@@ -36,7 +36,7 @@ public class BaseTest {
         ExcelReportUtils.setHeaders(new ArrayList<>(ExcelReportUtils.getReport().keySet()));
     }
 
-    @DataProvider(name = "excelData")
+    @DataProvider(name = "excelData",parallel = true)
     public Object[][] provideData() {
         Object[][] data = new Object[testData.size()][1];
         for (int i = 0; i < testData.size(); i++) {

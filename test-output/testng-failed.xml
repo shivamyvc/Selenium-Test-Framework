@@ -6,7 +6,8 @@
       <class name="com.test.web.sample.TestUSer3">
         <methods>
           <include name="initialize"/>
-          <include name="runTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="runTest" invocation-numbers="0 3 6"/>
         </methods>
       </class> <!-- com.test.web.sample.TestUSer3 -->
     </classes>

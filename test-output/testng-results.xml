@@ -1,72 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-20T12:29:58 IST" name="Default suite" finished-at="2025-04-20T12:29:59 IST" duration-ms="967">
+  <suite started-at="2025-04-24T10:39:55 IST" name="ParallelExcelDrivenSuite" finished-at="2025-04-24T10:40:18 IST" duration-ms="23147">
     <groups>
     </groups>
-    <test started-at="2025-04-20T12:29:58 IST" name="Default test" finished-at="2025-04-20T12:29:59 IST" duration-ms="967">
+    <test started-at="2025-04-24T10:39:55 IST" name="ExcelDataDrivenTest" finished-at="2025-04-24T10:40:18 IST" duration-ms="23147">
       <class name="com.test.web.sample.TestUSer3">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:com.test.web.sample.TestUSer3@53dbe163]" started-at="2025-04-20T12:29:58 IST" name="initialize" finished-at="2025-04-20T12:29:58 IST" duration-ms="809" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.test.web.sample.TestUSer3@517566b]" started-at="2025-04-24T10:39:55 IST" name="initialize" finished-at="2025-04-24T10:39:55 IST" duration-ms="578" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="runTest(java.util.HashMap)[pri:0, instance:com.test.web.sample.TestUSer3@53dbe163]" started-at="2025-04-20T12:29:58 IST" name="runTest" data-provider="excelData" finished-at="2025-04-20T12:29:59 IST" duration-ms="31" status="PASS">
+        <test-method signature="runTest(java.util.HashMap)[pri:0, instance:com.test.web.sample.TestUSer3@517566b]" started-at="2025-04-24T10:39:55 IST" name="runTest" data-provider="excelData" finished-at="2025-04-24T10:40:17 IST" duration-ms="21522" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{Expected=Mavi2, Username=Mavi2, TestCaseID=TC001, Run=Y, TestDataID=TD2, URL=https://www.lambdatest.com/selenium-playground/, Password=1234.0}]]>
+                <![CDATA[{Expected=Username, Username=Mavi3, TestCaseID=TC002, Run=Y, TestDataID=TD3, URL=https://www.lambdatest.com/selenium-playground/ajax-form-submit-demo, Browser=firefox, Password=1234.0}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runTest -->
-        <test-method signature="runTest(java.util.HashMap)[pri:0, instance:com.test.web.sample.TestUSer3@53dbe163]" started-at="2025-04-20T12:29:59 IST" name="runTest" data-provider="excelData" finished-at="2025-04-20T12:29:59 IST" duration-ms="6" status="PASS">
+        <test-method signature="runTest(java.util.HashMap)[pri:0, instance:com.test.web.sample.TestUSer3@517566b]" started-at="2025-04-24T10:39:55 IST" name="runTest" data-provider="excelData" finished-at="2025-04-24T10:40:00 IST" duration-ms="4221" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{Expected=Username, Username=Mavi3, TestCaseID=TC002, Run=Y, TestDataID=TD3, URL=https://www.lambdatest.com/selenium-playground/, Password=1234.0}]]>
+                <![CDATA[{Expected=Mavi4, Username=Mavi4, TestCaseID=TC003, Run=Y, TestDataID=TD4, URL=https://www.lambdatest.com/selenium-playground/auto-healing, Browser=edge, Password=1234.0}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runTest -->
-        <test-method signature="runTest(java.util.HashMap)[pri:0, instance:com.test.web.sample.TestUSer3@53dbe163]" started-at="2025-04-20T12:29:59 IST" name="runTest" data-provider="excelData" finished-at="2025-04-20T12:29:59 IST" duration-ms="1" status="PASS">
+        <test-method signature="runTest(java.util.HashMap)[pri:0, instance:com.test.web.sample.TestUSer3@517566b]" started-at="2025-04-24T10:39:55 IST" name="runTest" data-provider="excelData" finished-at="2025-04-24T10:40:04 IST" duration-ms="8045" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{Expected=Mavi4, Username=Mavi4, TestCaseID=TC003, Run=Y, TestDataID=TD4, URL=https://www.lambdatest.com/selenium-playground/, Password=1234.0}]]>
+                <![CDATA[{Expected=Mavi6, Username=Mavi5, TestCaseID=TC004, Run=Y, TestDataID=TD5, URL=https://www.lambdatest.com/selenium-playground/bootstrap-alert-messages-demo, Browser=chrome, Password=1234.0}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runTest -->
-        <test-method signature="runTest(java.util.HashMap)[pri:0, instance:com.test.web.sample.TestUSer3@53dbe163]" started-at="2025-04-20T12:29:59 IST" name="runTest" data-provider="excelData" finished-at="2025-04-20T12:29:59 IST" duration-ms="3" status="PASS">
+        <test-method signature="runTest(java.util.HashMap)[pri:0, instance:com.test.web.sample.TestUSer3@517566b]" started-at="2025-04-24T10:39:55 IST" name="runTest" data-provider="excelData" finished-at="2025-04-24T10:40:03 IST" duration-ms="7485" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{Expected=Mavi2, Username=Mavi5, TestCaseID=TC004, Run=Y, TestDataID=TD5, URL=https://www.lambdatest.com/selenium-playground/, Password=1234.0}]]>
+                <![CDATA[{Expected=Mavi2, Username=Mavi2, TestCaseID=TC001, Run=Y, TestDataID=TD2, URL=https://www.lambdatest.com/selenium-playground/, Browser=chrome, Password=1234.0}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runTest -->
-        <test-method signature="runTest(java.util.HashMap)[pri:0, instance:com.test.web.sample.TestUSer3@53dbe163]" started-at="2025-04-20T12:29:59 IST" name="runTest" data-provider="excelData" finished-at="2025-04-20T12:29:59 IST" duration-ms="2" status="PASS">
+        <test-method signature="runTest(java.util.HashMap)[pri:0, instance:com.test.web.sample.TestUSer3@517566b]" started-at="2025-04-24T10:39:55 IST" name="runTest" data-provider="excelData" finished-at="2025-04-24T10:40:12 IST" duration-ms="16210" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{Expected=123.0, Username=Mavi6, TestCaseID=TC005, Run=Y, TestDataID=TD6, URL=https://www.lambdatest.com/selenium-playground/, Password=1234.0}]]>
+                <![CDATA[{Expected=Mavi9, Username=Mavi8, TestCaseID=TC007, Run=Y, TestDataID=TD8, URL=https://www.lambdatest.com/selenium-playground/bootstrap-modal-demo, Browser=edge, Password=1234.0}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runTest -->
+        <test-method signature="runTest(java.util.HashMap)[pri:0, instance:com.test.web.sample.TestUSer3@517566b]" started-at="2025-04-24T10:39:55 IST" name="runTest" data-provider="excelData" finished-at="2025-04-24T10:40:04 IST" duration-ms="8537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Expected=Mavi7, Username=Mavi6, TestCaseID=TC005, Run=Y, TestDataID=TD6, URL=https://www.lambdatest.com/selenium-playground/bootstrap-date-picker-demo, Browser=firefox, Password=1234.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTest -->
+        <test-method signature="runTest(java.util.HashMap)[pri:0, instance:com.test.web.sample.TestUSer3@517566b]" started-at="2025-04-24T10:39:55 IST" name="runTest" data-provider="excelData" finished-at="2025-04-24T10:40:10 IST" duration-ms="14769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Expected=Mavi8, Username=Mavi7, TestCaseID=TC006, Run=Y, TestDataID=TD7, URL=https://www.lambdatest.com/selenium-playground/bootstrap-dual-list-box-demo, Browser=edge, Password=1234.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTest -->
+        <test-method signature="runTest(java.util.HashMap)[pri:0, instance:com.test.web.sample.TestUSer3@517566b]" started-at="2025-04-24T10:39:55 IST" name="runTest" data-provider="excelData" finished-at="2025-04-24T10:40:14 IST" duration-ms="18602" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Expected=123.0, Username=Mavi9, TestCaseID=TC008, Run=Y, TestDataID=TD9, URL=https://www.lambdatest.com/selenium-playground/bootstrap-download-progress-demo, Browser=firefox, Password=1234.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.web.sample.TestUSer3@517566b]" started-at="2025-04-24T10:40:00 IST" name="tearDown" finished-at="2025-04-24T10:40:06 IST" duration-ms="6427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.web.sample.TestUSer3@517566b]" started-at="2025-04-24T10:40:03 IST" name="tearDown" finished-at="2025-04-24T10:40:05 IST" duration-ms="2115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.web.sample.TestUSer3@517566b]" started-at="2025-04-24T10:40:04 IST" name="tearDown" finished-at="2025-04-24T10:40:05 IST" duration-ms="1647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.web.sample.TestUSer3@517566b]" started-at="2025-04-24T10:40:04 IST" name="tearDown" finished-at="2025-04-24T10:40:05 IST" duration-ms="898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.web.sample.TestUSer3@517566b]" started-at="2025-04-24T10:40:10 IST" name="tearDown" finished-at="2025-04-24T10:40:17 IST" duration-ms="6928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.web.sample.TestUSer3@517566b]" started-at="2025-04-24T10:40:12 IST" name="tearDown" finished-at="2025-04-24T10:40:17 IST" duration-ms="5496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.web.sample.TestUSer3@517566b]" started-at="2025-04-24T10:40:14 IST" name="tearDown" finished-at="2025-04-24T10:40:16 IST" duration-ms="1961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.web.sample.TestUSer3@517566b]" started-at="2025-04-24T10:40:17 IST" name="tearDown" finished-at="2025-04-24T10:40:18 IST" duration-ms="1003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.test.web.sample.TestUSer3 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- ExcelDataDrivenTest -->
+  </suite> <!-- ParallelExcelDrivenSuite -->
 </testng-results>
