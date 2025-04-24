@@ -41,6 +41,7 @@ This is a **Maven-based Java Automation Framework** structured for cross-browser
 ## 🚧 Coming Soon
 
 - 📸 **Screenshot capturing** on failure and success (embedded in ExtentReports)
+- Page Factory (Page Object Model)
 - ☁️ **Cloud platform integration**  
   - ✅ LambdaTest  
   - ✅ BrowserStack
