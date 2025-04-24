@@ -20,9 +20,10 @@ This is a TestNG-based Selenium Automation Framework designed for executing web 
 
 ---
 
-## 📂 Project Structure
 
-src/ │ ├── base/ │ └── test/ │ └── BaseTest.java # Common base class │ ├── com/ │ ├── driver/ │ │ └── factory/ │ │ └── DriverFactory.java # Creates browser drivers (Chrome, Firefox, etc.) │ │ │ ├── test/ │ │ └── web/ │ │ └── sample/ │ │ └── TestUSer3.java # Example test case using Excel + WebDriver │ │ │ ├── listeners/ │ │ └── ExtentTestListener.java # Report lifecycle manager │ │ │ ├── utilities/ │ │ ├── ExcelReportUtils.java # Excel log helper │ │ └── VerificationUtils.java # Soft assertion & reporting wrapper │ └── extent/ └── utils/ └── ExtentTestManager.java # Manages per-test ExtentTest objects
+## 📦 Project Type
+
+This is a **Maven-based Java Automation Framework** structured for cross-browser testing using Selenium Grid. It leverages modular packages like `listeners`, `utilities`, and `driver factory`, making it easy to scale and maintain.
 
 
 ---
