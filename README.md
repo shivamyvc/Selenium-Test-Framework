@@ -28,6 +28,52 @@ This is a **Maven-based Java Automation Framework** structured for cross-browser
 
 ---
 
+# 🚀 Selenium Test Automation Framework
+
+A robust, scalable test automation framework using **Selenium**, **TestNG**, **ExtentReports**, and **Excel-based data-driven testing**. This project supports **parallel execution**, **remote execution via Selenium Grid**, and **detailed test reporting**.
+
+## 📦 Project Type
+
+This is a **Maven-based Java Automation Framework** structured for cross-browser testing using Selenium Grid. It leverages modular packages like `listeners`, `utilities`, and `driver factory`, making it easy to scale and maintain.
+
+---
+
+## 🔧 Technologies Used
+
+- Java 21
+- Selenium 4.31
+- TestNG
+- Apache POI (Excel integration)
+- ExtentReports
+- Selenium Grid (Hub/Node architecture)
+- Maven
+
+## 🚧 Coming Soon
+
+- 📸 **Screenshot capturing** on failure and success (embedded in ExtentReports)
+- ☁️ **Cloud platform integration**  
+  - ✅ LambdaTest  
+  - ✅ BrowserStack
+- 🧠 Smart retry mechanism for flaky tests
+- 📂 Test configuration using JSON/YAML for CI/CD pipelines
+
+## 📁 Folder Highlights
+
+| Folder/File            | Description                                |
+|------------------------|--------------------------------------------|
+| `base/test/BaseTest.java` | Common setup/teardown logic for tests     |
+| `com/driver/factory/DriverFactory.java` | Creates WebDriver instances (based on browser name from Excel) |
+| `listeners/ExtentTestListener.java` | Handles ExtentReports test lifecycle |
+| `utilities/ExcelReportUtils.java` | Logs test execution result to Excel |
+| `utilities/VerificationUtils.java` | Custom assertions with Extent logging |
+| `extent/utils/ExtentTestManager.java` | Manages ExtentTest per-thread instance |
+| `test/web/sample/TestUSer3.java` | Sample test case using Excel + browser + verification |
+
+---
+
+Let me know if you'd like this turned into an actual `README.md` file or deployed to GitHub with you!
+
+
 ## 🧪 Test Example
 
 ```java
